@@ -1,0 +1,160 @@
+html,
+body {
+    text-align: center;
+    /*background: transparent;*/
+    background-color: white;
+    border-radius: 10px;
+    /*font-family: sans-serif;*/
+    /*font-family: "EB Garamond";*/
+    /*font-family: "Comfortaa";*/
+    /*font-family: "NanumMyeongjo";*/
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,Sans-Serif;
+    /*font-weight: 100;*/
+    margin: 0px;
+    -webkit-app-region: drag;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    font-weight: lighter;
+}
+
+#container {
+  width:100%;
+}
+
+#myProgress {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  /*background-color: #eea;*/
+  background-color: #F2F2F2;
+  text-align: center;
+  /*float: left;*/ /*if on drag would work*/
+}
+
+#myBar {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background-color: #61C791;
+}
+
+#label {
+  text-align: right;
+  /*line-height: 50px;*/
+  /*color: #E0FFB3;*/
+  color: #F2F2F2;
+  /*color: #C6E070;*/
+  /*margin-top: -20px;*/
+  font-size: 20px;
+  height: 20px;
+  padding: 0px;
+  margin: 0px;
+  line-height: 100%;
+}
+
+
+#buttons {
+  text-align:center;
+  -webkit-app-region: no-drag;
+}
+
+#display {
+  /*margin-top: -50px;*/
+  /*position: relative;*/
+  text-align:right;
+  /*color:#f44336;*/
+  color: #1C344C;
+  font-size: 65px;
+  line-height: 100%;
+  height: 60px;
+  padding: 0px;
+  margin: 0px;
+}
+#p2 {
+  text-align:center;
+  color:#f44336;
+  font-size: 60px;
+}
+
+button {
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    /*color: #FFFEFC;*/
+    color: white;
+    padding: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    /*font-family: "EB Garamond";*/
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,Sans-Serif;
+    /*min-width: 150px;*/
+    width: 25%;
+    height: 30px;
+    /*cursor: pointer*/
+    position: relative;
+    /*cursor: pointer;*/
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    will-change: opacity, transform;
+    transition: all .1s ease-out;
+}
+button:hover {
+  background-color: #61C791;
+}
+
+.start {
+    background-color: #C6E070; /* Light Pink */
+    color: #1C344C;
+}
+.reset {
+    background-color: #91C46C; /* Deep Blue */
+}
+.setting {
+    background-color: #287D7D; /* Deep Blue */
+}
+.close {
+    background-color: #1C344C;
+    /*background-color: transparent;*/
+}
+.save {
+    background-color: #0B3C4C; /* Deep Orange */
+    /*background-color: transparent;*/
+    width: 15%;
+    border-radius: 0px;
+    text-align: center;
+    height: 25px;
+    -webkit-app-region: no-drag;
+}
+
+.settings-body {
+  -webkit-app-region: no-drag;;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  font-size: 25px;
+  height: 110px;
+  line-height: 110px;
+  color: #0B3C4C;
+  background-color: #F23C55;
+}
+
+/*.settings {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  align-self: center;
+  background-color: gray;
+  -webkit-app-region: no-drag;
+}*/
+
+radio {
+  -webkit-app-region: no-drag;
+}

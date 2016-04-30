@@ -1,0 +1,18 @@
+{
+  "name": "verde",
+  "version": "0.1.0",
+  "description": "A Pomodoro Timer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . verde --platform=linux --arch=x64 --version=0.37.7 --out=/home/charlie/bin/ --overwrite"
+  },
+  "author": "Chao Zhang",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-packager": "^7.0.1"
+  },
+  "dependencies": {
+    "nconf": "^0.8.4"
+  }
+}
