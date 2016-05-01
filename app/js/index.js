@@ -18,7 +18,7 @@ function runTest()
         var timeInterval = configJson.timeInterval
         var timeInSeconds = configJson.timeLimit*60*1000;
         // timeLimit = 60*1000;
-        tol = 1.e-6;
+        tol = 1.e-4;
         var timeString;
         testHandle = setInterval(clock, timeInterval);
         // document.getElementById("p1").innerHTML = Math.random();
